@@ -12,7 +12,7 @@ The AY-3-8910 was first produced in 1978, and was in arcade and pinball games, t
 
 ## How It Works
 
-I had previously [developed a library](https://github.com/nickbild/ay-3-8910) for just the AY-3-8910.  While it worked great for generating sounds, I also wanted to make it talk.  I was able to get it to do so, but only with moderate success.  That led me to the SP0256-AL2 speech chip, and I added support for it into the library to make it easy to work with.
+I had previously [developed a library](https://github.com/nickbild/ay-3-8910) for just the AY-3-8910.  While it worked great for generating sounds, I also wanted to make it talk.  I was able to get it to do so, but only with moderate success, and through a very complicated process.  That led me to the SP0256-AL2 speech chip, and I added support for it into the library to make it easy to work with.
 
 #### Library
 
