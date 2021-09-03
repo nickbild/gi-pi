@@ -12,6 +12,60 @@ The AY-3-8910 was first produced in 1978, and was in arcade and pinball games, t
 
 ## How It Works
 
+#### Library
+
+A demonstration of the core functionalities can be found in [demo.py](https://github.com/nickbild/retro_audio/blob/main/demo.py):
+
+Speech:
+
+```
+speech = GiSpeech(a1=37, a2=35, a3=33, a4=31, a5=29, a6=23, ald=21, sby=15, rst=13)
+
+speech.speak(GG1)
+speech.speak(ER1)
+speech.speak(IY)
+speech.speak(TT1)
+speech.speak(IH)
+speech.speak(NG)
+speech.speak(SS)
+speech.speak(PA5)
+```
+
+Sound generator:
+
+```
+# Initialize sound object with pin definition.
+sound = GiSound(d0=8, d1=10, d2=12, d3=16, d4=18, d5=22, d6=24, d7=26, bc1=36, bdir=38, reset=40)
+
+# Set mixer; 1=0N, 0=OFF; (toneA, toneB, toneC, noiseA, noiseB, noiseC)
+sound.set_mixer(1, 1, 1, 0, 0, 0)
+# Set volume; 1=0N, 0=OFF; (volumeA, volumeB, volumeC)
+sound.set_volume(1, 1, 1)
+
+for i in range(4096):
+    # Set tone value, 0-4096; (toneA, toneB, toneC)
+    sound.set_tone(i, i+20, i+40)
+    time.sleep(0.001)
+
+# Set noise, 0-31.
+sound.set_noise(2)
+sound.set_mixer(1, 1, 1, 1, 1, 1)
+
+sound.set_tone(200, 200, 200)
+
+# Define an envelope.
+sound.set_envelope_freq(10000)              # 0-65535
+sound.set_envelope_shape(0, 1, 1, 0)        # 1=0N, 0=OFF; (continue, attack, alternate, hold)
+sound.enable_envelope(1, 1, 1)              # 1=0N, 0=OFF; (chanA, chanB, chanC)
+
+time.sleep(2)
+
+# Turn off all sound output.
+sound.volume_off()
+```
+
+Further details are availble in [the library](https://github.com/nickbild/retro_audio/blob/main/gi_sound.py).
+
 ## Media
 
 Full setup:
