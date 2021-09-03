@@ -1,4 +1,4 @@
-# Retro Audio
+# GI-Pi
 
 Control the classic General Instrument SP0256-AL2 speech chip and AY-3-8910 sound generator with a Raspberry Pi and this Python library.
 
@@ -70,6 +70,10 @@ sound.volume_off()
 Further details are availble in [the library](https://github.com/nickbild/retro_audio/blob/main/gi_sound.py).
 
 ## Media
+
+YouTube:
+
+If you're wondering why my Pi 400 screen looks like a Commodore 64, check out my [Pi64 project](https://github.com/nickbild/pi-64).
 
 Full setup:
 ![Full setup](https://raw.githubusercontent.com/nickbild/retro_audio/main/media/full_setup_sm.jpg)
