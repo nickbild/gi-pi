@@ -68,7 +68,7 @@ time.sleep(2)
 sound.volume_off()
 ```
 
-Further details are availble in [the library](https://github.com/nickbild/retro_audio/blob/main/gi_sound.py).
+Further details are available in [the library](https://github.com/nickbild/retro_audio/blob/main/gi_sound.py).
 
 ## Media
 
