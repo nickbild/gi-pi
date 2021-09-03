@@ -75,7 +75,7 @@ Further details are availble in [the library](https://github.com/nickbild/retro_
 YouTube:
 https://www.youtube.com/watch?v=u-AI8lnBwgg
 
-If you're wondering why my Pi 400 screen looks like a Commodore 64, check out my [Pi64 project](https://github.com/nickbild/pi-64).
+If you're wondering why my Pi 400 screen looks like a Commodore 64 in the video, check out my [Pi64 project](https://github.com/nickbild/pi-64).
 
 Full setup:
 ![Full setup](https://raw.githubusercontent.com/nickbild/retro_audio/main/media/full_setup_sm.jpg)
