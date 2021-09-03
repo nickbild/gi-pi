@@ -24,6 +24,7 @@ Speech:
 # Initialize speech object with pin definition.
 speech = GiSpeech(a1=37, a2=35, a3=33, a4=31, a5=29, a6=23, ald=21, sby=15, rst=13)
 
+# Say "greetings".
 speech.speak(GG1)
 speech.speak(ER1)
 speech.speak(IY)
