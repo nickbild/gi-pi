@@ -77,6 +77,8 @@ https://www.youtube.com/watch?v=u-AI8lnBwgg
 
 If you're wondering why my Pi 400 screen looks like a Commodore 64 in the video, check out my [Pi64 project](https://github.com/nickbild/pi-64).
 
+I used both the sound generator and the speech synthesizer to create intro music for the "Quick Hacks" segment of the Hackaday podcast.  It is available for [download here](https://github.com/nickbild/gi-pi/raw/main/media/quick_hacks.wav).  The code to generate it [is here](https://github.com/nickbild/gi-pi/blob/main/quick_hacks.py).  I'm hoping to hear it on the podcast sometime!
+
 Full setup:
 ![Full setup](https://raw.githubusercontent.com/nickbild/retro_audio/main/media/full_setup_sm.jpg)
 
