@@ -89,9 +89,8 @@ SP0256-AL2 chip:
 
 For both:
 - 1 x Raspberry Pi 400 (or another model)
-- 1 x 3.5mm jack to USB audio adapter
 - 1 x Speaker (3.5mm jack input)
-- 1 x TRRS jack breakout board
+- 2 x TRRS jack breakout board
 
 For SP0256-AL2:
 - 1 x SP0256-AL2 speech chip
