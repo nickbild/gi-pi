@@ -87,7 +87,11 @@ SP0256-AL2 chip:
 
 ## Bill of Materials
 
+For both:
 - 1 x Raspberry Pi 400 (or another model)
+- 1 x 3.5mm jack to USB audio adapter
+- 1 x Speaker (3.5mm jack input)
+- 1 x TRRS jack breakout board
 
 For SP0256-AL2:
 - 1 x SP0256-AL2 speech chip
@@ -103,10 +107,6 @@ For AY-3-8910:
 - 1 x 1K ohm resistor
 - Audio amplification circuit (see [datasheet](https://github.com/nickbild/ay-3-8910/blob/main/docs/AY-3-8910-datasheet.pdf))
 
-For both:
-- 1 x 3.5mm jack to USB audio adapter
-- 1 x Speaker (3.5mm jack input)
-- 1 x TRRS jack breakout board
 
 ## About the Author
 
