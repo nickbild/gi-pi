@@ -88,11 +88,22 @@ SP0256-AL2 chip:
 ## Bill of Materials
 
 - 1 x Raspberry Pi 400 (or another model)
+
+For SP0256-AL2:
 - 1 x SP0256-AL2 speech chip
 - 1 x 3.12 MHz crystal
 - 2 x 22 pF capacitors (XTAL to ground)
 - Speaker and audio amplification circuit (see [datasheet](https://github.com/nickbild/retro_audio/blob/main/spo256_datasheet.pdf))
-- Miscellaneous wires
+
+For AY-3-8910:
+- 1 x AY-3-8910 sound generator
+- 1 x 3.5mm jack to USB audio adapter
+- 1 x Speaker (3.5mm jack input)
+- 1 x 2 MHz crystal oscillator
+- 1 x TRRS jack breakout board
+- 2 x 1 nF capacitor
+- 3 x 10K ohm resistor
+- 1 x 1K ohm resistor
 
 ## About the Author
 
