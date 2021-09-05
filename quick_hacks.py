@@ -55,6 +55,8 @@ def main():
     time.sleep(0.2)
     sound.set_tone(200, 100, 000)
     time.sleep(0.2)
+    sound.set_tone(400, 300, 000)
+    time.sleep(0.2)
 
     for i in range(200, 0, -1):
         sound.set_tone(i, int(i/2), int(i/4))
